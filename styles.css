@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --primary-color: #312E81;
+    --secondary-color: #E5E7EB;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-image: url(triangle-background.jpg);
+    background-size: cover;
+    margin: 0px;
+
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    
+    box-shadow: 0px 6px 18px -5px #818591;
+
+}
+
+.nav-brand{
+    text-align: left;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-left: 2rem ;
+}
+
+.nav-list{
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+}
+
+.nav-list-link{
+    display: inline;
+    padding:  2rem ;
+    font-size: large;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link-active{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.angle-input{
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+#is-triangle-button {
+    margin: auto;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#output{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.question-container{
+    padding: 1rem;
+    font-size: large; 
+    margin-bottom: 1rem;
+}
+
+#submit-answer-btn {
+    margin: auto;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.side-input{
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+#hypotenuse-btn {
+    margin: auto;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#base-input{
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+#height-input{
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+#area-btn {
+    margin: auto;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
