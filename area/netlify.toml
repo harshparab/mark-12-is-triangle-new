@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://goofy-feynman-111930.netlify.app/ "
+  to = "https://goofy-feynman-111930.netlify.app/quiz.html"
+  status = 301
+  force = false
